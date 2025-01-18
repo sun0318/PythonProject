@@ -1,0 +1,25 @@
+from pyecharts.charts import Map
+from pyecharts import options as opts
+import random
+
+# 生成数据
+provinces = [
+    "北京", "天津", "上海", "重庆", "河北", "河南", "云南", "辽宁", "黑龙江", "湖南", "安徽", "山东", "新疆",
+    "江苏", "浙江", "江西", "湖北", "广西", "甘肃", "山西", "内蒙古", "陕西", "吉林", "福建", "贵州", "广东",
+    "青海", "西藏", "四川", "宁夏", "海南", "台湾", "香港", "澳门"
+]
+
+data = [(province, random.randint(0, 100)) for province in provinces]
+
+# 创建中国地图
+map = (
+    Map()
+    .add("随机数据", data, "china")
+    .set_global_opts(
+        title_opts=opts.TitleOpts(title="中国地图"),
+        visualmap_opts=opts.VisualMapOpts(max_=100),
+    )
+)
+
+# 渲染图表到html文件
+map.render("china_map.html")

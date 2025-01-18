@@ -1,0 +1,1 @@
+{"errno": 0, "data": [{"k": "sun", "v": "n. 太阳，阳光; 恒星; 中心人物 v. 晒太阳"}, {"k": "Sun", "v": "太阳"}, {"k": "SUN", "v": "abbr. Sun Valley, Idaho 美国; Commission of Symbols,"}, {"k": "Sun.", "v": "abbr. Sunday星期日"}, {"k": "Suna", "v": "[地名] [俄罗斯、肯尼亚、坦桑尼亚、意大利] 苏纳; [地名] [俄罗斯] 苏纳河"}], "logid": 2161521973}

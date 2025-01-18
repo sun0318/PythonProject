@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <script src="/static/csu/j/jquery.min.js" type="text/javascript"></script>
+    <style type="text/css">
+/*<![CDATA[*/
+.aui_main .aui_content{ max-height: 200px; overflow-y: auto;}
+/*]]>*/
+</style>
+<script type="text/javascript" src="/assets/fd3f6844/artdialog/jquery.artDialog.js?skin=blue"></script>
+<title>中南大学就业信息网</title>
+
+    <link href="/static/csu/c/css.css" rel="stylesheet">
+    <link href="/static/csu/c/font-awesome.min.css" rel="stylesheet">
+    <script src="/static/csu/j/slider.js"></script>
+
+    <script src="/static/csu/j/jquery-ui-1.10.3.full.min.js" type="text/javascript"></script>
+    <script src="/static/csu/j/rslider.min.js"></script>
+    <script src="/static/csu/j/nslider.js"></script>
+        <link href="/static/csu/c/font-awesome.min.css" rel="stylesheet">
+    <link href="/static/csu/c/jui.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/csu/c/darkblue.css">
+    <link rel="stylesheet" href="/static/csu/c/rslider.css">
+    <link rel="stylesheet" href="/static/csu/c/skins/minimal-white/rslider-white.css">
+        <script src="/static/csu/j/html5.js" type="text/javascript"></script>
+        <script src="/static/csu/j/jquery-ui-1.10.3.full.min.js" type="text/javascript"></script>
+
+        <link rel="stylesheet" href="/static/color/blue.css">
+
+    </head>
+
+<body>
+<div class="css-wrapper">
+        <div class="toprow">
+            <div class="link">
+                <div class="container-index">
+                    <ul class="list-inline hide">
+<!--                        <li><a href="">登录</a></li>-->
+<!--                        <li><a href="">注册</a></li>-->
+                    </ul>
+                    <ul class="list-inline ">
+						                    </ul>
+                    <a href="/">欢迎访问中南大学就业信息网</a>
+                </div>
+            </div>
+        </div>
+        <div class="header">
+            <div class="container-index">
+                <a class="logo" href="/">
+                                            <img src="/attachment/university/a2/cc/89625cf06c747e5968cb061a689baa1d.png" />
+                                    </a>
+                            <!-- 主页-->
+            <ul class="nav">
+                                                                                                                    <li><a href="https://career.csu.edu.cn"
+                                   target="_self">首页</a>
+                            </li>
+                                                                                                                                                                                <li><a href="https://career.csu.edu.cn/link/page/id/29936"
+                                   target="_self">学生服务</a>
+                            </li>
+                                                                                                                                            <li><a href="https://career.csu.edu.cn/link/page/id/29970"
+                                   target="_self">单位服务</a>
+                            </li>
+                                                                                                                                            <li><a href="https://career.csu.edu.cn/link/page/id/29991"
+                                   target="_self">教师服务</a>
+                            </li>
+                                                                                                                                            <li><a href="https://career.csu.edu.cn/news/index/tag/xxgk"
+                                   target="_self">信息公开</a>
+                            </li>
+                                                                                                                                            <li><a href="https://career.csu.edu.cn/news/view/tag/zxjs"
+                                   target="_self">关于我们</a>
+                            </li>
+                                                                                            <li class="searchBox"><input id="job_name" type="text" name="title"  placeholder="站内搜索"><img src="/static/csu/i/ser.png" alt=""></li>
+            </ul>
+    <script>
+        $(function() {
+            $('.searchBox img').on('click', function () {
+                var val = $('#job_name').val();
+                window.location.href = '/search/list?keyword='+val;
+            });
+            $('#job_name').on('keyup', function(e) {
+                if (e.keyCode==13) {
+                    $('.searchBox img').trigger('click');
+                }
+            });
+        });
+    </script>
+            </div>
+        </div>
+        <div class="wp">
+        <!-- 2级导航-->
+        
+                        
+
+    <div class="banner">
+    <div id="full-width-slider" class="royalSlider rsMinW">
+        <div class="rsContent"><a href="https://career.csu.edu.cn/news/view/aid/200217/preview/1/tag/tzgg?target=_blank"><img src="attachment/jobcsu/linkImage/202408/11/202408112248215263.jpg" class="rsImg" ></a><div class="rsTmb">中南大学2025届毕业生生源信息及秋季校园招聘活动预告</div></div><div class="rsContent"><a href="https://career.csu.edu.cn/largefairs/view/id/1281/domain/jobcsu"><img src="attachment/jobcsu/linkImage/202408/16/202408161426173066.jpg" class="rsImg" ></a><div class="rsTmb">中南大学2025届秋季首场大型综合双选会暨湖南省高校毕业</div></div><div class="rsContent"><a href="https://career.csu.edu.cn/source/preview/cid/200216"><img src="attachment/jobcsu/linkImage/202408/11/202408112247228230.jpg" class="rsImg" ></a><div class="rsTmb">中南大学2025届毕业生生源信息及学院联系方式</div></div><div class="rsContent"><a href="https://www.iguopin.com/"><img src="attachment/jobcsu/linkImage/202404/16/202404161004482573.jpg" class="rsImg" ></a><div class="rsTmb">国聘行动第五季</div></div><div class="rsContent"><a href="https://csu.ncss.cn/student/index.html"><img src="attachment/jobcsu/linkImage/202207/15/202207151107506159.jpg" class="rsImg" ></a><div class="rsTmb">国家大学生就业服务平台</div></div><div class="rsContent"><a href="/"><img src="attachment/jobcsu/linkImage/201908/23/201908231111356729.png" class="rsImg" ></a><div class="rsTmb">中南大学风景照</div></div>    </div>
+</div>
+<div class="main-content">
+    <div class="container-index">
+        <div class="fast-login">
+                <ul class="list-inline">
+                    <li><a href="/vip/user/login" class="btn btn-color1" target="_blank"><img src="/static/ynu/i/company-icon.png">单位登录</a></li>
+                    <li><a href="/user/login" class="btn btn-color2" target="_blank"><img src="/static/ynu/i/stu-icon.png">学生登录</a></li>
+                    <li><a href="/default/ulogin" class="btn btn-color3" target="_blank"><img src="/static/ynu/i/teacher-icon.png">教师登录</a></li>
+                </ul>
+            </div>        <div class="clearfix">
+            <div class="calendar">
+                <div class="titles"><span>就业日历</span></div>
+                <div class="css-content" id="datepicker"></div>
+            </div>
+            <div class="links-nav">
+                <div class="css-title"><span>学生导航</span></div>
+                <ul class="css-content ">
+                                            <li class="first-bgc"><a href="/chooseLesson/list"><img src="/static/csu/i/nav1.png"></a></li>
+                                        <li class="bgc1"><a target="_blank" href="/consult"><img src="attachment/jobcsu/linkImage/201908/20/201908201547257185.png"><p><b>咨询预约</b></p></a></li><li class="bgc2"><a target="_blank" href="/news/view/aid/196351/tag/tzgg"><img src="attachment/jobcsu/linkImage/201908/20/201908201554284414.png"><p><b>签约、解约流程</b></p></a></li><li class="bgc3"><a target="_blank" href="/melectronic"><img src="attachment/jobcsu/linkImage/201908/20/201908201551571545.png"><p><b>网上签约</b></p></a></li><li class="bgc4"><a target="_blank" href="/jobtest"><img src="attachment/jobcsu/linkImage/201908/20/201908201547545057.png"><p><b>职业测评</b></p></a></li><li class="bgc5"><a target="_blank" href="/question"><img src="attachment/jobcsu/linkImage/201908/20/201908201556015921.png"><p><b>就业问答</b></p></a></li><li class="bgc6"><a target="_blank" href="/source"><img src="attachment/jobcsu/linkImage/202003/12/202003121702382444.png"><p><b>生源速览</b></p></a></li><li class="bgc7"><a target="_blank" href="/affair/sinfo"><img src="attachment/jobcsu/linkImage/201908/20/201908201540337543.png"><p><b>生源信息核对</b></p></a></li><li class="bgc8"><a target="_blank" href="/affair/rinfo"><img src="attachment/jobcsu/linkImage/201908/20/201908201549493149.png"><p><b>推荐表注册</b></p></a></li>                </ul>
+            </div>
+        </div>
+        <div class="newslist">
+                                <div class="caption">
+                        <ul>
+                             <li><a href="#tabs-29" rel="https://career.csu.edu.cn/teachin">宣讲会</a></li> <li><a href="#tabs-28" rel="https://career.csu.edu.cn/jobfair">招聘会</a></li> <li><a href="#tabs-27" rel="https://career.csu.edu.cn/campus/index/category/1">招聘信息</a></li> <li><a href="#tabs-211" rel="https://career.csu.edu.cn/search/list?medicine=1">医疗卫生</a></li> <li><a href="#tabs-210" rel="https://career.csu.edu.cn/campus/index/category/2">实习招聘</a></li> <li><a href="#tabs-21" rel="https://career.csu.edu.cn/news/index/tag/jcxm">基层项目</a></li> <li><a href="#tabs-23" rel="https://career.csu.edu.cn/news/index/tag/sydw">事业单位</a></li> <li><a href="#tabs-22" rel="https://career.csu.edu.cn/news/index/tag/gjzz">国际组织</a></li> <li><a href="#tabs-24" rel="https://career.csu.edu.cn/news/index/tag/jdwz">军队招聘</a></li> <li><a href="#tabs-25" rel="https://career.csu.edu.cn/news/index/tag/kyzl">科研助理</a></li> <li><a href="#tabs-26" rel="https://career.csu.edu.cn/news/index/tag/kytj">考研调剂</a></li>
+                        </ul>
+                        <a href="" target="_blank" class="more">更多<img src="/static/csu/i/more.png" alt=""></a>
+                    </div>
+                    <div class="content">
+                        <ul><li class="clearfix"><div class="cont"><div class="new-time"><p>08月</p><p>22日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/teachin/view/id/108075" target="_blank" class="title">北京学而思教育科技有限公司</a><span style="color: #dedede; text-shadow:0.5px 0.5px 0.5px #dedede;padding-left:7px;float:left;">已举办</span><span class="time">16:00-18:00</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">线上宣讲</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">531</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>08月</p><p>17日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/teachin/view/id/108060" target="_blank" class="title">胤源顾问有限公司</a><span style="color: #dedede; text-shadow:0.5px 0.5px 0.5px #dedede;padding-left:7px;float:left;">已举办</span><span class="time">10:30-11:30</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">线上宣讲</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">936</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>08月</p><p>14日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/teachin/view/id/108068" target="_blank" class="title">多益网络有限公司</a><span style="color: #dedede; text-shadow:0.5px 0.5px 0.5px #dedede;padding-left:7px;float:left;">已举办</span><span class="time">19:30-20:10</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">线上宣讲</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">700</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>08月</p><p>01日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/teachin/view/id/108059" target="_blank" class="title">河南典学文化传播有限公司</a><span style="color: #dedede; text-shadow:0.5px 0.5px 0.5px #dedede;padding-left:7px;float:left;">已举办</span><span class="time">14:30-15:30</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">线上宣讲</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">760</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>07月</p><p>27日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/teachin/view/id/108058" target="_blank" class="title">胤源顾问有限公司</a><span style="color: #dedede; text-shadow:0.5px 0.5px 0.5px #dedede;padding-left:7px;float:left;">已举办</span><span class="time">10:30-11:30</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">线上宣讲</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">830</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>07月</p><p>22日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/teachin/view/id/108057" target="_blank" class="title">武汉高途云集教育科技有限公司</a><span style="color: #dedede; text-shadow:0.5px 0.5px 0.5px #dedede;padding-left:7px;float:left;">已举办</span><span class="time">16:00-18:00</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">线上宣讲</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">733</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>06月</p><p>27日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/teachin/view/id/108055" target="_blank" class="title">河南典学文化传播有限公司</a><span style="color: #dedede; text-shadow:0.5px 0.5px 0.5px #dedede;padding-left:7px;float:left;">已举办</span><span class="time">14:30-15:30</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">线上宣讲</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">1407</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>06月</p><p>26日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/teachin/view/id/108054" target="_blank" class="title">海军研究院</a><span style="color: #dedede; text-shadow:0.5px 0.5px 0.5px #dedede;padding-left:7px;float:left;">已举办</span><span class="time">15:00-17:00</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">中南大学 校本部 智联厅</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">5246</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>06月</p><p>21日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/teachin/view/id/108053" target="_blank" class="title">启元实验室</a><span style="color: #dedede; text-shadow:0.5px 0.5px 0.5px #dedede;padding-left:7px;float:left;">已举办</span><span class="time">10:30-12:30</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">中南大学 校本部 智联厅</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">2239</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>06月</p><p>19日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/teachin/view/id/108011" target="_blank" class="title">桂林理工大学</a><span style="color: #dedede; text-shadow:0.5px 0.5px 0.5px #dedede;padding-left:7px;float:left;">已举办</span><span class="time">10:30-12:30</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">中南大学 校本部 智联厅</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">3402</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>06月</p><p>18日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/teachin/view/id/108030" target="_blank" class="title">潮州三环（集团）股份有限公司</a><span style="color: #dedede; text-shadow:0.5px 0.5px 0.5px #dedede;padding-left:7px;float:left;">已举办</span><span class="time">19:00-21:00</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">中南大学 校本部 智联厅</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">2453</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>06月</p><p>18日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/teachin/view/id/108052" target="_blank" class="title">盈峰环境科技集团股份有限公司</a><span style="color: #dedede; text-shadow:0.5px 0.5px 0.5px #dedede;padding-left:7px;float:left;">已举办</span><span class="time">14:00</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">中南大学 新校区 毓秀楼117</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">1800</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>06月</p><p>18日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/teachin/view/id/108051" target="_blank" class="title">中铁二院工程集团有限责任公司</a><span style="color: #dedede; text-shadow:0.5px 0.5px 0.5px #dedede;padding-left:7px;float:left;">已举办</span><span class="time">10:30-12:30</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">世纪楼A302</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">2615</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>06月</p><p>14日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/teachin/view/id/108038" target="_blank" class="title">中铁第一勘察设计院集团有限公司</a><span style="color: #dedede; text-shadow:0.5px 0.5px 0.5px #dedede;padding-left:7px;float:left;">已举办</span><span class="time">16:30-18:30</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">世主403</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">1979</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>06月</p><p>14日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/teachin/view/id/108013" target="_blank" class="title">中建八局第二建设有限公司</a><span style="color: #dedede; text-shadow:0.5px 0.5px 0.5px #dedede;padding-left:7px;float:left;">已举办</span><span class="time">16:30-18:30</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">世主503</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">2173</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>06月</p><p>14日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/teachin/view/id/108020" target="_blank" class="title">西安电子科技大学</a><span style="color: #dedede; text-shadow:0.5px 0.5px 0.5px #dedede;padding-left:7px;float:left;">已举办</span><span class="time">14:00-16:00</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">中南大学 校本部 智联厅</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">2407</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>06月</p><p>14日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/teachin/view/id/108021" target="_blank" class="title">中铁工程设计咨询集团有限公司</a><span style="color: #dedede; text-shadow:0.5px 0.5px 0.5px #dedede;padding-left:7px;float:left;">已举办</span><span class="time">14:00-16:00</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">世纪楼D101</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">1956</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>06月</p><p>11日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/teachin/view/id/108022" target="_blank" class="title">海军工程大学</a><span style="color: #dedede; text-shadow:0.5px 0.5px 0.5px #dedede;padding-left:7px;float:left;">已举办</span><span class="time">10:00-12:00</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">校本部 智联厅</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">1804</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>06月</p><p>07日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/teachin/view/id/108017" target="_blank" class="title">合肥我们方田教育科技有限公司</a><span style="color: #dedede; text-shadow:0.5px 0.5px 0.5px #dedede;padding-left:7px;float:left;">已举办</span><span class="time">15:00-17:00</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">线上宣讲</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">878</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>06月</p><p>07日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/teachin/view/id/108019" target="_blank" class="title">焦作明仁食品有限公司</a><span style="color: #dedede; text-shadow:0.5px 0.5px 0.5px #dedede;padding-left:7px;float:left;">已举办</span><span class="time">15:00-16:00</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">线上宣讲</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">875</span></div></div></li></ul><ul><li class="clearfix"><div class="cont"><div class="new-time"><p>09月</p><p>20日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/jobfair/view/id/34391" target="_blank" class="title">济南第二届高层次人才招引大会</a><span class="time"></span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">山东国际会展中心</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">116</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>09月</p><p>29日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/jobfair/view/id/34389" target="_blank" class="title">中南大学2025届秋季首场大型综合双选会暨湖南省高校毕业生综合类</a><span class="time">14:00-18:00</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">中南大学新校区体育场副场</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">1436</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>07月</p><p>19日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/jobfair/view/id/34387" target="_blank" class="title">“智汇潇湘 才聚湖南”2024年高校学子面试对接会</a><span class="time">09:00-12:00</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">湖南省人才发展集团有限公司培训楼二楼求真厅（青园路506号）</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">1855</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>07月</p><p>11日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/jobfair/view/id/34379" target="_blank" class="title">深圳市南山区“指南针计划”系列实习招聘及就业指导活动</a><span class="time">00:00-23:55</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">广东省深圳市南山区</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">2450</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>07月</p><p>05日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/jobfair/view/id/34386" target="_blank" class="title">【百日冲刺】前程无忧2024年高校毕业生“百日冲刺”线上就业公益</a><span class="time">07.05-08.31</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">网络招聘会，在线投递简历</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">2279</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>07月</p><p>01日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/jobfair/view/id/34385" target="_blank" class="title">中南大学2024届毕业生离校未就业专场网络招聘会</a><span class="time">07.01-07.31</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">网络招聘会，在线投递简历</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">4410</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>06月</p><p>20日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/jobfair/view/id/34382" target="_blank" class="title">中国连锁经营协会网络招聘会</a><span class="time">06.20-06.23</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">网络招聘会，在线投递简历</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">1158</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>06月</p><p>15日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/jobfair/view/id/34381" target="_blank" class="title">2024年湖南省专精特新企业直播带岗专场招聘会</a><span class="time">06.15-06.15</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">网络招聘会，在线投递简历</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">1366</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>06月</p><p>14日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/jobfair/view/id/34383" target="_blank" class="title">“菁英聚鹏城”深圳市属国企2024夏季校招就业冲刺专场招聘会</a><span class="time">06.14-07.31</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">网络招聘会，在线投递简历</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">1837</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>06月</p><p>13日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/jobfair/view/id/34380" target="_blank" class="title">贵阳市乌当区2024年赴外引才“长沙行”活动暨中南大学专场招聘会</a><span class="time">14:00-17:00</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">中南大学 校本部 立言厅</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">1354</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>06月</p><p>07日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/jobfair/view/id/34370" target="_blank" class="title">【百日冲刺】中南大学2024届“宏志助航计划”系列毕业生&实习生</a><span class="time">14:00-17:00</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">中南大学校本部 立德厅、立功厅</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">1507</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>05月</p><p>31日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/jobfair/view/id/34378" target="_blank" class="title">“湘遇蓝湾，才聚江海” 2024年江苏南通·通州湾（中南大学） </a><span class="time">09:30-11:30</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">中南大学新校区 毓秀楼238报告厅</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">1835</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>05月</p><p>25日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/jobfair/view/id/34372" target="_blank" class="title">“星梦想 在长沙”2024年大学生毕业季系列活动启动仪式暨专场招</a><span class="time">09:30-12:00</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">岳麓科创港（潇湘中路283号）</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">2015</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>05月</p><p>25日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/jobfair/view/id/34373" target="_blank" class="title">博士直聘网-春招校园行暨2024届毕业博士专场就业双选会 中南大</a><span class="time">14:00-18:00</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">中南大学 校本部 立德厅(三五食堂4楼)</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">1539</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>05月</p><p>25日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/jobfair/view/id/34377" target="_blank" class="title">博聘行动-春招校园行暨2024届毕业博士专场就业双选会</a><span class="time">14:00-17:00</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">中南大学 校本部 立德厅</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">1350</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>05月</p><p>24日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/jobfair/view/id/34350" target="_blank" class="title">【百日冲刺】中南大学2024届“宏志助航计划”系列毕业生&实习生</a><span class="time">14:00-17:00</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">中南大学校本部 立德厅、立功厅</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">1653</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>05月</p><p>24日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/jobfair/view/id/34374" target="_blank" class="title">深圳市龙岗区2024年赴中南大学组团招聘会</a><span class="time">13:00-17:00</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">中南大学 校本部 智联厅、立德厅</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">2164</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>05月</p><p>23日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/jobfair/view/id/34375" target="_blank" class="title">常州市“名城名校合作行 创新创业赢未来” 中南大学专场招聘会</a><span class="time">09:30-12:00</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">中南大学 新校区 毓秀楼 238报告厅</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">998</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>05月</p><p>22日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/jobfair/view/id/34360" target="_blank" class="title">2024年中国航空工业集团重点高校博士生双选会</a><span class="time">08:00-18:00</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">陕西省西安市阎良区</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">1471</span></div></div></li><li class="clearfix"><div class="cont"><div class="new-time"><p>05月</p><p>20日</p><img src="/static/csu/i/calendar.png" class="bg"></div><div class="content-info"><p><a href="/jobfair/view/id/34371" target="_blank" class="title">“追梦来扬 州到爱才”2024年扬州人才校园日专场推介招聘会</a><span class="time">09:30-12:30</span></p><span class="address"><img src="/static/csu/i/address.png" alt="" class="add-icon">中南大学 新校区 毓秀楼 和声堂、一楼</span><span class="browse"><img src="/static/csu/i/browse.png" alt="" class="bro-icon">1435</span></div></div></li></ul><ul><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/573694" target="_blank" class="title"><font color ="#ff0000">有色金属类招聘信息汇总</font></a><span class="time">2024-08-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/547687" target="_blank" class="title"><font color ="#ff0000">医疗卫生类招聘信息汇总</font></a><span class="time">2024-08-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/555628" target="_blank" class="title"><font color ="#ff0000">国防军工类招聘信息汇总</font></a><span class="time">2024-08-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/558561" target="_blank" class="title"><font color ="#ff0000">能源动力类招聘信息汇总</font></a><span class="time">2024-08-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/547671" target="_blank" class="title"><font color ="#ff0000">信息通讯与互联网类招聘信息汇总</font></a><span class="time">2024-08-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/543181" target="_blank" class="title"><font color ="#ff0000">金融经济类招聘信息汇总</font></a><span class="time">2024-08-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/543164" target="_blank" class="title"><font color ="#ff0000">建筑行业类招聘信息汇总</font></a><span class="time">2024-08-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/547685" target="_blank" class="title"><font color ="#ff0000">交通运输类招聘信息汇总</font></a><span class="time">2024-08-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/543185" target="_blank" class="title"><font color ="#ff0000">教育行业类招聘信息汇总（高校）</font></a><span class="time">2024-08-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/543192" target="_blank" class="title"><font color ="#ff0000">教育行业类招聘信息汇总（中小学）</font></a><span class="time">2024-08-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575693" target="_blank" class="title">湖南北云科技有限公司</a><span class="time">2024-08-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575692" target="_blank" class="title">万兴科技集团股份有限公司</a><span class="time">2024-08-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575688" target="_blank" class="title">山西建邦集团有限公司</a><span class="time">2024-08-24</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575687" target="_blank" class="title">山东英科环保再生资源股份有限公司</a><span class="time">2024-08-24</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575686" target="_blank" class="title">用友网络科技股份有限公司</a><span class="time">2024-08-24</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575685" target="_blank" class="title">长江存储科技有限责任公司</a><span class="time">2024-08-24</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575684" target="_blank" class="title">广州白云国际机场股份有限公司</a><span class="time">2024-08-24</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575681" target="_blank" class="title">中铁一局集团有限公司</a><span class="time">2024-08-23</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575679" target="_blank" class="title">陕汽集团陕西汉德车桥有限公司</a><span class="time">2024-08-23</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575678" target="_blank" class="title">百威雪津啤酒有限公司</a><span class="time">2024-08-23</span></div></li></ul><ul><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575543" target="_blank" class="title">长沙都正生物科技股份有限公司</a><span class="time">2024-08-20</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575495" target="_blank" class="title">圣湘生物科技股份有限公司</a><span class="time">2024-08-15</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575475" target="_blank" class="title">浙江大学国际健康医学研究院</a><span class="time">2024-08-13</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575420" target="_blank" class="title">广东医科大学附属医院</a><span class="time">2024-08-08</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575324" target="_blank" class="title">中山大学孙逸仙纪念医院深汕中心医院</a><span class="time">2024-07-29</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575241" target="_blank" class="title">艾美荣誉（宁波）生物制药有限公司</a><span class="time">2024-07-22</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/574935" target="_blank" class="title">大理白族自治州中医医院</a><span class="time">2024-06-18</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/574852" target="_blank" class="title">深圳市福田区卫生健康局</a><span class="time">2024-06-11</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/574806" target="_blank" class="title">湘湖实验室（农业浙江省实验室）</a><span class="time">2024-06-05</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/574702" target="_blank" class="title">中茧新科桑蚕生物产业有限公司</a><span class="time">2024-05-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/574679" target="_blank" class="title">海军军医大学第三附属医院</a><span class="time">2024-05-23</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/574663" target="_blank" class="title">岳阳县岳雅学校</a><span class="time">2024-05-22</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/574639" target="_blank" class="title">重庆智飞生物制品股份有限公司</a><span class="time">2024-05-21</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/574578" target="_blank" class="title">中国民航大学</a><span class="time">2024-05-16</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/574572" target="_blank" class="title">长沙数字天蚂信息技术有限公司</a><span class="time">2024-05-15</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/574548" target="_blank" class="title">济宁济州心康医院有限公司</a><span class="time">2024-05-14</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/574542" target="_blank" class="title">长沙诺民医疗科技有限公司</a><span class="time">2024-05-14</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/574538" target="_blank" class="title">中南大学湘雅二医院桂林医院</a><span class="time">2024-05-13</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/teachin/view/id/107869" target="_blank" class="title">中国人民解放军第四军医大学第二附属医院</a><span class="time">2024-05-09</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/574446" target="_blank" class="title">济宁济州心康医院有限公司</a><span class="time">2024-05-07</span></div></li></ul><ul><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575696" target="_blank" class="title">【实习】众安在线财产保险股份有限公司</a><span class="time">2024-08-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575695" target="_blank" class="title">【实习】美的集团</a><span class="time">2024-08-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575694" target="_blank" class="title">【实习】博世(中国)投资有限公司</a><span class="time">2024-08-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575691" target="_blank" class="title">【实习】蔚来汽车科技有限公司</a><span class="time">2024-08-24</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575690" target="_blank" class="title">【实习】北京奇艺世纪科技有限公司</a><span class="time">2024-08-24</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575689" target="_blank" class="title">【实习】汇丰银行（中国）股份有限公司</a><span class="time">2024-08-24</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575683" target="_blank" class="title">【实习】北京字节跳动网络技术有限公司</a><span class="time">2024-08-23</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575682" target="_blank" class="title">【实习】第一太平戴维斯</a><span class="time">2024-08-23</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575680" target="_blank" class="title">【实习】玛氏箭牌糖果（中国）有限公司</a><span class="time">2024-08-23</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575656" target="_blank" class="title">【实习】小米通讯技术有限公司</a><span class="time">2024-08-23</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575655" target="_blank" class="title">【实习】滴滴出行科技有限公司</a><span class="time">2024-08-23</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575654" target="_blank" class="title">【实习】北京三快在线科技有限公司（美团）</a><span class="time">2024-08-23</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575611" target="_blank" class="title">【实习】参天制药（中国）有限公司</a><span class="time">2024-08-21</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575610" target="_blank" class="title">【实习】中粮（COFCO）集团有限公司</a><span class="time">2024-08-21</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575609" target="_blank" class="title">【实习】新浪网络技术股份有限公司</a><span class="time">2024-08-21</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575575" target="_blank" class="title">【实习】倍比拓 beBit</a><span class="time">2024-08-20</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575574" target="_blank" class="title">【实习】深圳市理邦精密仪器股份有限公司</a><span class="time">2024-08-20</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575573" target="_blank" class="title">【实习】天弘基金管理有限公司</a><span class="time">2024-08-20</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575572" target="_blank" class="title">【实习】FT中文网编辑部</a><span class="time">2024-08-20</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="/campus/view/id/575566" target="_blank" class="title">【实习】广东粤科创业投资管理有限公司</a><span class="time">2024-08-19</span></div></li></ul><ul><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/197106/tag/jcxm" target="_blank" class="title"><font color ="#ff0000">全国各地2024年面向中南大学招录选调生、公务员、人才引进信息汇总</font></a><span class="time">2023-09-01</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/194338/tag/jcxm" target="_blank" class="title"><font color ="#ff0000">全国各地2023年面向中南大学招录选调生、公务员、人才引进信息汇总</font></a><span class="time">2022-09-06</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/190895/tag/jcxm" target="_blank" class="title"><font color ="#ff0000">全国各地2022年面向中南大学招录选调生、公务员、人才引进信息汇总</font></a><span class="time">2021-08-31</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/189084/tag/jcxm" target="_blank" class="title"><font color ="#ff0000">全国各地2021年面向中南大学招录选调生、公务员、人才引进信息汇总</font></a><span class="time">2020-10-15</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/187257/tag/jcxm" target="_blank" class="title"><font color ="#ff0000">全国各地2020年面向中南大学招录选调生信息汇总</font></a><span class="time">2019-10-12</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199951/tag/jcxm" target="_blank" class="title">内蒙古自治区2024年度面向中南大学定向选调(政法专项)应届优秀大学毕业生拟录用人员公示公告</a><span class="time">2024-07-03</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199928/tag/jcxm" target="_blank" class="title">广西2024年定向中南大学招录选调生拟录用人选公示</a><span class="time">2024-07-01</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199869/tag/jcxm" target="_blank" class="title">【燎原计划】关于第六届“燎原计划”选调生、公务员备考特训营的报名通知</a><span class="time">2024-06-26</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199774/tag/jcxm" target="_blank" class="title">湖北省黄石市2024年面向中南大学专项招聘急需紧缺人才拟聘用人员公示</a><span class="time">2024-06-17</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199689/tag/jcxm" target="_blank" class="title">【星火计划】关于开展中南大学2024年“星火计划”基层党政部门实习实践活动的通知</a><span class="time">2024-06-12</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199666/tag/jcxm" target="_blank" class="title">安徽省2024年度面向中南大学招录定向选调生拟录用人选公示</a><span class="time">2024-06-07</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199636/tag/jcxm" target="_blank" class="title">福建省2024年度选调生拟录用人员公示公告</a><span class="time">2024-06-05</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199635/tag/jcxm" target="_blank" class="title">安徽省2024年招录选调生考察公告</a><span class="time">2024-06-05</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199586/tag/jcxm" target="_blank" class="title">江西省2024年从中南大学选调应届优秀大学毕业生拟录用人员公示公告</a><span class="time">2024-05-30</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199581/tag/jcxm" target="_blank" class="title">【人才引进】2024年奎屯市事业单位高层次、急需紧缺人才引进公告</a><span class="time">2024-05-29</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199517/tag/jcxm" target="_blank" class="title">中南大学2024届志愿服务基层优秀毕业生推荐人选公示</a><span class="time">2024-05-24</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199492/tag/jcxm" target="_blank" class="title">【人才引进】西藏自治区2024年高层次人才引进公告</a><span class="time">2024-05-23</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199491/tag/jcxm" target="_blank" class="title">【人才引进】江苏省宿迁市2024年度选聘应届紧缺专业毕业生公告</a><span class="time">2024-05-23</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199441/tag/jcxm" target="_blank" class="title">湖南省2024年考试录用公务员补充录用公告</a><span class="time">2024-05-18</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199390/tag/jcxm" target="_blank" class="title">山西省2024年定向中南大学选调优秀高校毕业生拟录用人员公示</a><span class="time">2024-05-15</span></div></li></ul><ul><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/190052/tag/sydw" target="_blank" class="title"><font color ="#ff0000">事业单位招聘信息汇总（华北地区）</font></a><span class="time">2024-08-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/190054/tag/sydw" target="_blank" class="title"><font color ="#ff0000">事业单位招聘信息汇总（华东地区）</font></a><span class="time">2024-08-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/190056/tag/sydw" target="_blank" class="title"><font color ="#ff0000">事业单位招聘信息汇总（华中地区）</font></a><span class="time">2024-08-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/190117/tag/sydw" target="_blank" class="title"><font color ="#ff0000">事业单位招聘信息汇总（东北地区）</font></a><span class="time">2024-08-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/190119/tag/sydw" target="_blank" class="title"><font color ="#ff0000">事业单位招聘信息汇总（西北地区）</font></a><span class="time">2024-08-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/190053/tag/sydw" target="_blank" class="title"><font color ="#ff0000">事业单位招聘信息汇总（华南地区）</font></a><span class="time">2024-08-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/190055/tag/sydw" target="_blank" class="title"><font color ="#ff0000">事业单位招聘信息汇总（西南地区）</font></a><span class="time">2024-08-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200393/tag/sydw" target="_blank" class="title">（2024年9月4日截止）四川省德阳市中江县</a><span class="time">2024-08-24</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200392/tag/sydw" target="_blank" class="title">（2024年9月4日截止）上海市</a><span class="time">2024-08-24</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200391/tag/sydw" target="_blank" class="title">（2024年8月26日截止）陕西省延安市延川县</a><span class="time">2024-08-24</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200390/tag/sydw" target="_blank" class="title">（2024年9月6日）河北省唐山市</a><span class="time">2024-08-24</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200389/tag/sydw" target="_blank" class="title">（2024年9月2日截止）浙江省应急管理厅</a><span class="time">2024-08-24</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200385/tag/sydw" target="_blank" class="title">（2024年9月4日截止）湖南省株洲市渌口区</a><span class="time">2024-08-23</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200384/tag/sydw" target="_blank" class="title">（2024年9月10日）广西省贵港市</a><span class="time">2024-08-23</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200383/tag/sydw" target="_blank" class="title">（2024年9月1日截止）云南省曲靖市</a><span class="time">2024-08-23</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200382/tag/sydw" target="_blank" class="title">（2024年8月26日）上海市奉贤区</a><span class="time">2024-08-23</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200381/tag/sydw" target="_blank" class="title">（2024年8月25日截止）山东省安丘市</a><span class="time">2024-08-23</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200378/tag/sydw" target="_blank" class="title">（2024年9月13日截止）湖南省郴州市嘉禾县</a><span class="time">2024-08-22</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200377/tag/sydw" target="_blank" class="title">（2024年8月25日截止）浙江省宁波市奉化区</a><span class="time">2024-08-22</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200376/tag/sydw" target="_blank" class="title">（2024年8月30日截止）河北省唐山市</a><span class="time">2024-08-22</span></div></li></ul><ul><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200388/tag/gjzz" target="_blank" class="title">International Consultant on Environnemental Mainstreaming</a><span class="time">2024-08-24</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200387/tag/gjzz" target="_blank" class="title"> Deputy Director Relief and Social Services</a><span class="time">2024-08-24</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200380/tag/gjzz" target="_blank" class="title">Consultant Report on corruption challenges and anti-corruption practices in the private sector in Ukraine</a><span class="time">2024-08-23</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200379/tag/gjzz" target="_blank" class="title">Communication and Programme Support Intern</a><span class="time">2024-08-23</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200373/tag/gjzz" target="_blank" class="title">Individual Contractor - Economic Affairs</a><span class="time">2024-08-22</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200372/tag/gjzz" target="_blank" class="title">Consultant to Draft Jordan Case Study Elder Abuse Report</a><span class="time">2024-08-22</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200364/tag/gjzz" target="_blank" class="title">Intern Housing and Land Management</a><span class="time">2024-08-21</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200363/tag/gjzz" target="_blank" class="title">Intern Oceans</a><span class="time">2024-08-21</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200362/tag/gjzz" target="_blank" class="title">Economic Analysis Assistant (National)</a><span class="time">2024-08-20</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200361/tag/gjzz" target="_blank" class="title">NURSE</a><span class="time">2024-08-20</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200354/tag/gjzz" target="_blank" class="title">Senior Humanitarian Affairs Officer / Deputy Head of Office</a><span class="time">2024-08-19</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200353/tag/gjzz" target="_blank" class="title">Language and Desktop Publishing Assistant, English</a><span class="time">2024-08-19</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200340/tag/gjzz" target="_blank" class="title">PROGRAMME MANAGEMENT OFFICER</a><span class="time">2024-08-18</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200339/tag/gjzz" target="_blank" class="title">EDITORIAL AND DESKTOP PUBLISHING ASSISTANT, SPANISH</a><span class="time">2024-08-18</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200331/tag/gjzz" target="_blank" class="title">Inter-regional Adviser on Sustainable Energy and Climate Change</a><span class="time">2024-08-17</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200330/tag/gjzz" target="_blank" class="title">Chief, Financial Resources Management Service</a><span class="time">2024-08-17</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200323/tag/gjzz" target="_blank" class="title">LEGAL COUNSEL/DIRECTOR, OFFICE OF LEGAL AFFAIRS (D2)</a><span class="time">2024-08-16</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200322/tag/gjzz" target="_blank" class="title">Programme Management Assistant</a><span class="time">2024-08-16</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200320/tag/gjzz" target="_blank" class="title">PROGRAMME MANAGEMENT OFFICER (AIR QUALITY)</a><span class="time">2024-08-15</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200319/tag/gjzz" target="_blank" class="title">2024 Internships - Global Compact Office (New York)</a><span class="time">2024-08-15</span></div></li></ul><ul><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200386/tag/jdwz" target="_blank" class="title">东部战区陆军2024年文职人员招聘公告</a><span class="time">2024-08-23</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200365/tag/jdwz" target="_blank" class="title">解放军总医院社会人才招聘公告</a><span class="time">2024-08-21</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200341/tag/jdwz" target="_blank" class="title">武警福建总队2024年社会聘用人员招聘公告</a><span class="time">2024-08-18</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200338/tag/jdwz" target="_blank" class="title">北京市某军队单位2024年面向社会招聘公告</a><span class="time">2024-08-17</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200329/tag/jdwz" target="_blank" class="title">南部战区2024年公开招考专业技能类文职人员公告</a><span class="time">2024-08-16</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200321/tag/jdwz" target="_blank" class="title">中部战区陆军2024年公开招考专业技能类文职人员公告</a><span class="time">2024-08-15</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200313/tag/jdwz" target="_blank" class="title">军事航天部队2024年文职人员招考公告</a><span class="time">2024-08-14</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200297/tag/jdwz" target="_blank" class="title">中国人民解放军南部战区2024年公开招考专业技能类文职人员公告</a><span class="time">2024-08-13</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200289/tag/jdwz" target="_blank" class="title">2024年陆军面向社会公开招考专业技能类文职人员公告</a><span class="time">2024-08-12</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200282/tag/jdwz" target="_blank" class="title">海军大连舰艇学院2024年社会聘用人员招聘公告</a><span class="time">2024-08-11</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200274/tag/jdwz" target="_blank" class="title">空军2024年社会聘用人员招聘公告</a><span class="time">2024-08-10</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200268/tag/jdwz" target="_blank" class="title">武警部队2024年面向社会公开招聘专业技能类文职人员</a><span class="time">2024-08-09</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200265/tag/jdwz" target="_blank" class="title">武警陕西省总队医院2024年文职人员招考公告</a><span class="time">2024-08-08</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200257/tag/jdwz" target="_blank" class="title">武警青海总队医院2024年文职人员招考公告</a><span class="time">2024-08-07</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200247/tag/jdwz" target="_blank" class="title">联勤保障部队第九八九医院2024年文职人员招考公告</a><span class="time">2024-08-06</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200236/tag/jdwz" target="_blank" class="title">云南省大理市云龙县公安局2024年人才引进公告</a><span class="time">2024-08-05</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200230/tag/jdwz" target="_blank" class="title">广州市某军队单位面向社会招聘公告</a><span class="time">2024-08-05</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200229/tag/jdwz" target="_blank" class="title">浙江省温州市瓯海区公安分局2024年人才引进公告</a><span class="time">2024-08-04</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200223/tag/jdwz" target="_blank" class="title">广西壮族自治区桂林市资源县公安局人才引进公告</a><span class="time">2024-08-03</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/200214/tag/jdwz" target="_blank" class="title">黑龙江省公安机关人民警察2024年人才引进公告</a><span class="time">2024-08-02</span></div></li></ul><ul><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199998/tag/kyzl" target="_blank" class="title">南方科技大学单分子成像课题组科研助理招聘公告</a><span class="time">2024-07-07</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199997/tag/kyzl" target="_blank" class="title">南方科技大学生命科学学院梁征宇课题组科研助理招聘公告</a><span class="time">2024-07-07</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199996/tag/kyzl" target="_blank" class="title">南方科技大学生命科学学院张丽课题组科研助理招聘公告</a><span class="time">2024-07-07</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199995/tag/kyzl" target="_blank" class="title">南方科技大学生命科学学院肖波课题组科研助理招聘公告</a><span class="time">2024-07-07</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199994/tag/kyzl" target="_blank" class="title">南方科技大学生命科学学院廖茂富课题组科研助理招聘公告</a><span class="time">2024-07-07</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199987/tag/kyzl" target="_blank" class="title">杭州电子科技大学科研助理招聘公告</a><span class="time">2024-07-06</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199986/tag/kyzl" target="_blank" class="title">河北中医药大学科研助理招聘公告</a><span class="time">2024-07-06</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199992/tag/kyzl" target="_blank" class="title">中央美术学院科研助理招聘公告</a><span class="time">2024-07-06</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199988/tag/kyzl" target="_blank" class="title">湖南中医药大学药学院科研助理招聘公告</a><span class="time">2024-07-06</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199991/tag/kyzl" target="_blank" class="title">北京交通大学科研助理招聘公告</a><span class="time">2024-07-06</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199917/tag/kyzl" target="_blank" class="title">中央民族大学程勇课题组“神经生物学方向”科研助理招聘公告</a><span class="time">2024-06-30</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199916/tag/kyzl" target="_blank" class="title">中国科学院地理资源所陆地表层格局与模拟院重点实验室科研助理招聘公告</a><span class="time">2024-06-30</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199915/tag/kyzl" target="_blank" class="title">郑州大学物理学院科研助理招聘公告</a><span class="time">2024-06-30</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199909/tag/kyzl" target="_blank" class="title">中国热带农业科学院科技信息研究所科研助理招聘公告</a><span class="time">2024-06-30</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199904/tag/kyzl" target="_blank" class="title">湖南中医药大学护理学院科研助理招聘公告</a><span class="time">2024-06-29</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199903/tag/kyzl" target="_blank" class="title">湖南中医药大学中医学院科研助理招聘公告</a><span class="time">2024-06-29</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199902/tag/kyzl" target="_blank" class="title">贵州医科大学科研助理招聘公告</a><span class="time">2024-06-29</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199896/tag/kyzl" target="_blank" class="title">中国农业科学院兰州畜牧与兽药研究所科研助理招聘公告</a><span class="time">2024-06-29</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199895/tag/kyzl" target="_blank" class="title">华中农业大学科研助理招聘公告</a><span class="time">2024-06-29</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/199894/tag/kyzl" target="_blank" class="title">中国科学院大学科研助理招聘公告</a><span class="time">2024-06-29</span></div></li></ul><ul><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/198775/tag/kytj" target="_blank" class="title">东南大学法学院2024年硕士研究生考研调剂信息</a><span class="time">2024-04-10</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/198774/tag/kytj" target="_blank" class="title">东北大学2024年硕士研究生考研调剂信息</a><span class="time">2024-04-10</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/198773/tag/kytj" target="_blank" class="title">长春大学2024年硕士研究生考研调剂信息</a><span class="time">2024-04-10</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/198772/tag/kytj" target="_blank" class="title">山东农业大学资源与环境学院2024年硕士研究生考研调剂信息</a><span class="time">2024-04-10</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/198771/tag/kytj" target="_blank" class="title">上海科技大学信息学院2024年硕士研究生考研调剂信息</a><span class="time">2024-04-10</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/198770/tag/kytj" target="_blank" class="title">新疆财经大学2024年硕士研究生考研调剂信息</a><span class="time">2024-04-10</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/198769/tag/kytj" target="_blank" class="title">桂林电子科技大学2024年硕士研究生考研调剂信息</a><span class="time">2024-04-10</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/198768/tag/kytj" target="_blank" class="title">石河子大学2024年硕士研究生考研调剂信息</a><span class="time">2024-04-10</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/198767/tag/kytj" target="_blank" class="title">长沙矿山研究院2024年硕士研究生考研调剂信息</a><span class="time">2024-04-10</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/198764/tag/kytj" target="_blank" class="title">西南大学教师教育学院2024年硕士研究生考研调剂信息</a><span class="time">2024-04-10</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/198763/tag/kytj" target="_blank" class="title">北京邮电大学2024年硕士研究生考研调剂信息</a><span class="time">2024-04-10</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/198762/tag/kytj" target="_blank" class="title">江南大学人工智能与计算机学院2024年硕士研究生考研调剂信息</a><span class="time">2024-04-10</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/198761/tag/kytj" target="_blank" class="title">江南大学理学院2024年硕士研究生考研调剂信息</a><span class="time">2024-04-10</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/198760/tag/kytj" target="_blank" class="title">西北工业大学外国语学院2024年硕士研究生考研调剂信息</a><span class="time">2024-04-10</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/198759/tag/kytj" target="_blank" class="title">西北工业大学物理科学与技术学院2024年硕士研究生考研调剂信息</a><span class="time">2024-04-10</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/198758/tag/kytj" target="_blank" class="title">西北工业大学化学与化工学院2024年硕士研究生考研调剂信息</a><span class="time">2024-04-10</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/198757/tag/kytj" target="_blank" class="title">天津大学建筑工程学院2024年硕士研究生考研调剂信息</a><span class="time">2024-04-10</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/198756/tag/kytj" target="_blank" class="title">天津大学法学院2024年硕士研究生考研调剂信息</a><span class="time">2024-04-10</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/198755/tag/kytj" target="_blank" class="title">中南大学基础医学院2024年硕士研究生考研调剂信息</a><span class="time">2024-04-10</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a href="https://career.csu.edu.cn/news/view/aid/198754/tag/kytj" target="_blank" class="title">湖南大学信息科学与工程学院2024年硕士研究生考研调剂信息</a><span class="time">2024-04-10</span></div></li></ul>
+                    </div>        </div>
+
+        <div class="newslist tab-news">
+                                <div class="caption">
+                        <ul>
+                             <li><a href="#tabs-11" rel="https://career.csu.edu.cn/news/index/tag/tzgg">通知公告</a></li> <li><a href="#tabs-12" rel="https://career.csu.edu.cn/news/index/tag/xwkd">新闻资讯</a></li> <li><a href="#tabs-13" rel="https://career.csu.edu.cn/news/index/tag/jyzc">政策法规</a></li> <li><a href="#tabs-14" rel="https://career.csu.edu.cn/news/index/tag/dxxc">典型宣传</a></li> <li><a href="#tabs-15" rel="https://career.csu.edu.cn/news/index/tag/qzjq">求职指南</a></li> <li><a href="#tabs-16" rel="https://career.csu.edu.cn/news/index/tag/cyxz">常用下载</a></li> <li><a href="#tabs-17" rel="https://career.csu.edu.cn/news/index/tag/jtys">交通运输与邮政快递行业就指委</a></li>
+                        </ul>
+                        <a href="" target="_blank" class="more">更多<img src="/static/csu/i/more.png" alt=""></a>
+                    </div>
+                    <div class="content">
+                        <ul><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200217/tag/tzgg" class="title">中南大学2025届毕业生生源信息及秋季校园招聘活动预告</a><span class="time">2024-08-02</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200187/tag/tzgg" class="title">关于组织申报教育部第四期供需对接就业育人项目的通知</a><span class="time">2024-07-30</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200305/tag/tzgg" class="title">关于组织师生参加中国十五冶“国企开放日”活动的通知</a><span class="time">2024-08-14</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200304/tag/tzgg" class="title">关于组织师生参加比亚迪开放日活动的通知</a><span class="time">2024-08-13</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200215/tag/tzgg" class="title">中南大学2025届毕业生一次性求职补贴申报通知</a><span class="time">2024-08-02</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200200/tag/tzgg" class="title">“创享”格力周——格力大学生创新实践营报名通知</a><span class="time">2024-07-31</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200186/tag/tzgg" class="title">关于第十一届“百所高校千名博士青岛行”活动的报名通知</a><span class="time">2024-07-30</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200166/tag/tzgg" class="title">关于2024“才聚江阴·澄就未来”夏季青年人才大会暨“百校千企万才”深度融合发展恳谈会的报名通知</a><span class="time">2024-07-26</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200146/tag/tzgg" class="title">中铝科学院(未来研究院)暑期开放日报名通知</a><span class="time">2024-07-23</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200118/tag/tzgg" class="title">南昌市“百站百名赣籍学子走进南昌”活动报名通知</a><span class="time">2024-07-19</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200062/tag/tzgg" class="title">航空工业万里2024年暑期开放日活动报名通知</a><span class="time">2024-07-13</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200061/tag/tzgg" class="title">关于加强2024届毕业生就业数据统计和核查工作的通知</a><span class="time">2024-07-13</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200055/tag/tzgg" class="title"> 山西省大同市“宏图大展·邀你同行”高校学子大同行活动报名通知</a><span class="time">2024-07-12</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200051/tag/tzgg" class="title">2024年百名博士江门行报名通知</a><span class="time">2024-07-12</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200050/tag/tzgg" class="title">中南大学关于2024年暑假期间就业手续办理、校园招聘与就业指导活动安排的通知</a><span class="time">2024-07-11</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200043/tag/tzgg" class="title">中国船舶江南造船第六届博士江南行活动报名通知</a><span class="time">2024-07-11</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200041/tag/tzgg" class="title">关于开展2024年中南大学就业重点单位人才理念体验活动暨“访企拓岗促就业”行动的通知</a><span class="time">2024-07-11</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200024/tag/tzgg" class="title">关于长沙经开区2024年“研发人才开放日”活动的报名通知</a><span class="time">2024-07-09</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199976/tag/tzgg" class="title">关于中国振华电子集团2024年“国企开放日”活动的报名通知</a><span class="time">2024-07-05</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199975/tag/tzgg" class="title">“职”通天下 | 百日冲刺行动之求职经验分享会——临床医学生专场</a><span class="time">2024-07-05</span></div></li></ul><ul><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200371/tag/xwkd" class="title">中南大学开展“访企拓岗”行动：何军副校长率队走访调研杭州市用人单位</a><span class="time">2024-08-22</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200355/tag/xwkd" class="title">校党委副书记李景升率队赴辽宁、宁夏走访调研并看望校友</a><span class="time">2024-08-20</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200337/tag/xwkd" class="title">中南大学开展“访企拓岗”行动：何军副校长走访调研深圳市坪山区用人单位</a><span class="time">2024-08-17</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200296/tag/xwkd" class="title">走进金证股份、汉森软件、超聚变、深信服、华为，双向赋能促发展——重点单位人才理念体验暨“访企拓岗促就业”活动No.9</a><span class="time">2024-08-12</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200295/tag/xwkd" class="title">走进浙大一院、浙大二院、邵逸夫医院、丁香园，推动高质量充分就业——重点单位人才理念体验暨“访企拓岗就业”活动No.8</a><span class="time">2024-08-12</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200294/tag/xwkd" class="title">走进深圳市盐田区教育局、蓝天教育，共筑教育梦想——重点单位人才理念体验暨“访企拓岗促就业”活动No.7</a><span class="time">2024-08-12</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200249/tag/xwkd" class="title">走进北京名企，共探校企合作新路径——重点单位人才理念体验暨“访企拓岗促就业”活动No.6</a><span class="time">2024-08-06</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200239/tag/xwkd" class="title">走进粤港澳大湾区，领略机械行业前沿魅力——重点单位人才理念体验暨“访企拓岗促就业”活动No.5</a><span class="time">2024-08-05</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200238/tag/xwkd" class="title">走进中铁大桥局、铁四院、中建三局基建投、三峡集团，合作践知行，筑就强国基——重点单位人才理念体验暨“访企拓岗促就业”活动No.4</a><span class="time">2024-08-05</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200237/tag/xwkd" class="title">走进广东建科院、南部战区总医院、陈李济药厂，探索校企合作创新——重点单位人才理念体验暨“访企拓岗促就业”活动No.3</a><span class="time">2024-08-05</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200194/tag/xwkd" class="title">走进中国核电，探索核能科技前沿——重点单位人才理念体验暨“访企拓岗促就业”活动No.2</a><span class="time">2024-07-31</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200167/tag/xwkd" class="title">走进中国振华，领略尖端科技魅力，共探国防电子蓝海——重点单位人才理念体验暨“访企拓岗促就业”活动No.1</a><span class="time">2024-07-26</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200133/tag/xwkd" class="title">“职”通天下行业认知及就业指导讲座之荣耀专场顺利举行</a><span class="time">2024-07-22</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200036/tag/xwkd" class="title">中南大学2024年“星火计划”基层党政部门实习实践行前培训顺利举行</a><span class="time">2024-07-10</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200034/tag/xwkd" class="title">“职”通天下临床医学生专场求职经验分享会顺利举行</a><span class="time">2024-07-10</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200033/tag/xwkd" class="title">“职”通天下博士生专场求职经验分享会顺利举行</a><span class="time">2024-07-10</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200023/tag/xwkd" class="title">学校召开2024届毕业生就业工作推进会</a><span class="time">2024-07-09</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199971/tag/xwkd" class="title">“职”通天下少数民族学生专场求职经验分享会顺利举行</a><span class="time">2024-07-05</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199960/tag/xwkd" class="title">中南大学“宏志助航计划”2024年就业指导师资培训顺利举办</a><span class="time">2024-07-04</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199959/tag/xwkd" class="title">中南大学开展“访企拓岗”行动：校党委副书记李景升率队赴贵州走访调研并看望选调生</a><span class="time">2024-07-04</span></div></li></ul><ul><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200119/tag/jyzc" class="title">就业法律小讲堂 | 大学生就业，这些法律知识应知晓</a><span class="time">2024-07-20</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200005/tag/jyzc" class="title">就业法律小讲堂 | @高校毕业生：职场新人避坑反诈入职手册，请收好！</a><span class="time">2024-07-08</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199670/tag/jyzc" class="title">就业法律小讲堂 | 入职之初，订立劳动合同这些问题需注意！</a><span class="time">2024-06-11</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199020/tag/jyzc" class="title">就业法律小讲堂｜员工能自愿弃缴社保吗？不签合同就不用缴社保？</a><span class="time">2024-04-28</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/198582/tag/jyzc" class="title">就业法律小讲堂｜临近毕业找工作，应当认定实习还是就业？</a><span class="time">2024-04-04</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/197983/tag/jyzc" class="title">政策知多少 | 石家庄市关于深入实施新时代人才强市战略的若干措施</a><span class="time">2024-03-04</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/197566/tag/jyzc" class="title">就业法律小讲堂 | offer被企业“撤回” ？应届毕业生怎么办</a><span class="time">2024-01-11</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/197491/tag/jyzc" class="title">政策知多少 | @毕业生，就业创业有啥补贴？这些政策不能错过！</a><span class="time">2023-12-27</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/197236/tag/jyzc" class="title">就业法律小讲堂 | @所有国考生，警惕“国考诈骗”！</a><span class="time">2023-11-09</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/196515/tag/jyzc" class="title">政策知多少 | @2023届高校毕业生，请查收这份就业政策礼包</a><span class="time">2023-06-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/196514/tag/jyzc" class="title">政策知多少 | @毕业生，这些补贴可申领，还有这几条提醒需注意</a><span class="time">2023-06-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/196513/tag/jyzc" class="title">政策知多少 | 关于积极稳妥做好高校毕业生档案转递接收工作的通知</a><span class="time">2023-06-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/196203/tag/jyzc" class="title">政策知多少 | 湖北省宜昌市大学生就业创业政策</a><span class="time">2023-04-04</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/196176/tag/jyzc" class="title">政策知多少 | 广东省江门市江海区人才政策合集</a><span class="time">2023-03-29</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/195913/tag/jyzc" class="title">政策知多少 |《〈济南市人才服务支持政策 (30条)〉 〈济南市人才发展环境政策 (30条)〉实施细则 (试行)》</a><span class="time">2023-03-17</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/195499/tag/jyzc" class="title">就业法律小讲堂 | 请注意：劳动合同上的这些约定无效｜No.19</a><span class="time">2023-01-13</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/195309/tag/jyzc" class="title">政策知多少 | 图解全国高校毕业生就业创业政策</a><span class="time">2022-12-30</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/195308/tag/jyzc" class="title">政策知多少 | 军队文职人员的岗位设置、职业发展和福利待遇</a><span class="time">2022-12-30</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/194197/tag/jyzc" class="title">政策知多少 | 淄博人才金政50条</a><span class="time">2022-08-12</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/193860/tag/jyzc" class="title">政策知多少 | 湖南省人才政策汇编画册</a><span class="time">2022-07-07</span></div></li></ul><ul><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199851/tag/dxxc" class="title">从中南出发，奔赴祖国山海！</a><span class="time">2024-06-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/200025/tag/dxxc" class="title">【“职”无不言】阮煜：杏林培梦求医道，玉汝于成载艺还</a><span class="time">2024-07-09</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199939/tag/dxxc" class="title">【CSUer去哪儿】情系军工梦寄国防，心有大我科研报国 | 2024届毕业生就业典型宣传</a><span class="time">2024-07-02</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199746/tag/dxxc" class="title">【“职”无不言】贺宁：以终点心态规划起点</a><span class="time">2024-06-16</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199745/tag/dxxc" class="title">【CSUer去哪儿】接轨时代脉动，“乘”着青春出发！｜2024届毕业生就业典型宣传</a><span class="time">2024-06-16</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199683/tag/dxxc" class="title">【“职”无不言】兰昕：笃行致远，做新征程的“追光者”</a><span class="time">2024-06-12</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199656/tag/dxxc" class="title">【CSUer去哪儿】浴火青春淬炼“有色”人生｜2024届毕业生就业典型宣传</a><span class="time">2024-06-06</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199629/tag/dxxc" class="title">【“职”无不言】郭思达：以实学启航未来，用实干守护安全</a><span class="time">2024-06-05</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199549/tag/dxxc" class="title">【“职”无不言】马海青：在跨越边界中寻找职业方向</a><span class="time">2024-05-27</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199443/tag/dxxc" class="title">【“职”无不言】何聪：驰骋“数”海专注为方，“统”筹帷幄行动至上</a><span class="time">2024-05-19</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199375/tag/dxxc" class="title">【学长学姐的职场故事】贾如意：在追光中向阳而生、向善而行</a><span class="time">2024-05-14</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199075/tag/dxxc" class="title">【学长学姐的职场故事】曾祥平：风雨兼程 不负远方</a><span class="time">2024-05-06</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199019/tag/dxxc" class="title">【学长学姐的职场故事】王双雨：测山绘水，纬地经天，长将热土暖胸怀</a><span class="time">2024-04-28</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/198900/tag/dxxc" class="title">【“职”无不言】拉珠：藏区青年心系家乡发展，雪域高原砥砺青春价值</a><span class="time">2024-04-18</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/198614/tag/dxxc" class="title">【“职”无不言】杨鹏程：海阔天空任跃翔，鹏程万里奋今朝——社科学子的“破圈”求职之路</a><span class="time">2024-04-07</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/198533/tag/dxxc" class="title">【“职”无不言】张平：投身航空事业，做发光发热的建设者</a><span class="time">2024-04-01</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/198436/tag/dxxc" class="title">【“职”无不言】李铭骏：兴趣引航，实践开路，梦想驱动——一名汽车设计师的追梦之旅</a><span class="time">2024-03-27</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/198071/tag/dxxc" class="title">【“职”无不言】赵博雅：与华为AI软件开发岗的二三事</a><span class="time">2024-03-12</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/197991/tag/dxxc" class="title">【“职”无不言】张琼：心怀真情领悟真知，走进基层奉献青春</a><span class="time">2024-03-05</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/197920/tag/dxxc" class="title">【“职”无不言】杨佳宝：筑“基”铁路园，功“建”大湾区</a><span class="time">2024-02-25</span></div></li></ul><ul><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199861/tag/qzjq" class="title">【求职直通车】求职面试多问这些问题，教你避开5种套路</a><span class="time">2024-06-26</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199671/tag/qzjq" class="title">【求职直通车】求职季最全面试技巧，助你拿下心动offer！</a><span class="time">2024-06-11</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199260/tag/qzjq" class="title">【求职直通车】@毕业生！毕业前你应知道的事</a><span class="time">2024-05-10</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199072/tag/qzjq" class="title">【求职直通车】国企、民企、外企……快来看看你适合哪个？</a><span class="time">2024-05-03</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/198903/tag/qzjq" class="title">【求职直通车】有价值的实习经历是如何规划出来的？带你探秘→</a><span class="time">2024-04-19</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/198902/tag/qzjq" class="title">【求职直通车】必看！档案知识大揭秘！</a><span class="time">2024-04-19</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/197841/tag/qzjq" class="title">【求职直通车】了解自身与岗位匹配度，如何读懂企业招聘信息？</a><span class="time">2024-02-17</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/197807/tag/qzjq" class="title">【求职直通车】军队文职面试等的急，这份“通关宝典”请收好！</a><span class="time">2024-02-12</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/197780/tag/qzjq" class="title">【求职直通车】高频考点！春招面试，最有可能提问这个问题……</a><span class="time">2024-02-06</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/197709/tag/qzjq" class="title">【求职直通车】关于职业规划和求职选择，寒假考虑清楚这些事～</a><span class="time">2024-01-30</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/197652/tag/qzjq" class="title">【求职直通车】收好！2024年度专业技术人员职业资格考试时间表定了→</a><span class="time">2024-01-24</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/197618/tag/qzjq" class="title">【求职直通车】干货满满！寒假如何备战春招？</a><span class="time">2024-01-19</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/197543/tag/qzjq" class="title">【求职直通车】从STAR法则到START法则：讲好个人成就故事的进阶方法</a><span class="time">2024-01-08</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/197473/tag/qzjq" class="title">【求职直通车】面试时如何有逻辑地表达？一文教会你使用金字塔原理！</a><span class="time">2023-12-25</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/197387/tag/qzjq" class="title">【求职直通车】@2024届毕业生：你知道“六险二金”是什么吗？</a><span class="time">2023-12-11</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/197285/tag/qzjq" class="title">【求职直通车】毕业生转化职场人之“锦囊”</a><span class="time">2023-11-29</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/197229/tag/qzjq" class="title">【求职直通车】CSUer专属简历模板大放送！快点击收藏～</a><span class="time">2023-11-08</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/197228/tag/qzjq" class="title">【求职直通车】简历中最容易出现的误区，一文教你提前避免</a><span class="time">2023-11-08</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/197227/tag/qzjq" class="title">【求职直通车】职业资格证书和职业技能等级证书有什么区别？一图看懂！</a><span class="time">2023-11-08</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/197226/tag/qzjq" class="title">【求职直通车】假如你遇到这样的面试难题</a><span class="time">2023-11-08</span></div></li></ul><ul><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/189815/tag/cyxz" class="title">学院增补生源信息表</a><span class="time">2021-04-30</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/189599/tag/cyxz" class="title">毕业生回原籍申请表</a><span class="time">2021-03-16</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/189598/tag/cyxz" class="title">调整改办申请表</a><span class="time">2021-03-16</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/189597/tag/cyxz" class="title">湖南省普通高校本专科毕业生和毕业研究生就业报到证遗失补办申请表</a><span class="time">2021-03-16</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/189596/tag/cyxz" class="title">湖南省普通高等学校往届毕业生 资格审核数据异动情况确认表</a><span class="time">2021-03-16</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/187799/tag/cyxz" class="title">网上签约系统常见问题解答</a><span class="time">2020-04-09</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/187798/tag/cyxz" class="title">网上签约系统使用说明</a><span class="time">2020-04-09</span></div></li></ul><ul><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199725/tag/jtys" class="title">大连地铁运营有限公司</a><span class="time">2024-06-14</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199724/tag/jtys" class="title">中铁二院工程集团有限责任公司</a><span class="time">2024-06-14</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199723/tag/jtys" class="title">中车株洲电力机车有限公司</a><span class="time">2024-06-14</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199722/tag/jtys" class="title">中国商飞公司</a><span class="time">2024-06-14</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199721/tag/jtys" class="title">宁波市公共交通集团有限公司及下属分子公司</a><span class="time">2024-06-14</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199720/tag/jtys" class="title">中国铁路济南局集团有限公司</a><span class="time">2024-06-14</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199719/tag/jtys" class="title">中国铁路设计集团有限公司</a><span class="time">2024-06-14</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199718/tag/jtys" class="title">中国铁路设计集团有限公司</a><span class="time">2024-06-14</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199717/tag/jtys" class="title">中国民用航空局清算中心</a><span class="time">2024-06-14</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199716/tag/jtys" class="title">交通运输部机关服务中心</a><span class="time">2024-06-14</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199714/tag/jtys" class="title">中国船舶集团有限公司</a><span class="time">2024-06-14</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199655/tag/jtys" class="title">中国邮政集团有限公司贵州省分公司</a><span class="time">2024-06-06</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199654/tag/jtys" class="title">申通快递股份有限公司</a><span class="time">2024-06-06</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199653/tag/jtys" class="title">中国邮政集团有限公司日照市分公司</a><span class="time">2024-06-06</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199652/tag/jtys" class="title">中铁二院工程集团有限责任公司</a><span class="time">2024-06-06</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199651/tag/jtys" class="title">中国铁路太原局集团有限公司</a><span class="time">2024-06-06</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199650/tag/jtys" class="title">内蒙古民航机场集团公司乌兰浩特分公司</a><span class="time">2024-06-06</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199649/tag/jtys" class="title">安庆市交通控股集团有限公司</a><span class="time">2024-06-06</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199648/tag/jtys" class="title">中国国际航空股份有限公司</a><span class="time">2024-06-06</span></div></li><li class="clearfix newsline"><div class="cont content-txt"><a target="_blank" href="https://career.csu.edu.cn/news/view/aid/199647/tag/jtys" class="title">中国铁路呼和浩特局集团有限公司</a><span class="time">2024-06-06</span></div></li></ul>
+                    </div>        </div>
+        <div class="newslist tab-link">
+            <div class="caption">
+                <ul>
+                    <li><a href=''>校内链接</a></li><li><a href=''>校外链接</a></li>                </ul>
+            </div>
+            <div class="content">
+                <ul>
+                    <li><a target="_blank" href="http://www.csu.edu.cn/">学校主页</a></li><li><a target="_blank" href="http://www.xysm.csu.edu.cn/">湘雅校区</a></li><li><a target="_blank" href="http://csru.csu.edu.cn/">铁道校区</a></li><li><a target="_blank" href="http://xgw.csu.edu.cn/">学工网</a></li><li><a target="_blank" href="http://54sh.csu.edu.cn/">升华网</a></li><li><a target="_blank" href="http://xyh.csu.edu.cn/">校友网</a></li><li><a target="_blank" href="http://bksy.csu.edu.cn/">本科生院</a></li><li><a target="_blank" href="http://gra.its.csu.edu.cn/yjsy/">研究生院</a></li><li><a target="_blank" href="http://iecd.csu.edu.cn/">国际交流合作处</a></li><li><a target="_blank" href="http://dag.csu.edu.cn/">档案馆</a></li><li><a target="_blank" href="https://zzb.csu.edu.cn/">组织部</a></li><li><a target="_blank" href="https://nic.csu.edu.cn/">信网中心</a></li>                </ul>
+                <ul>
+                    <li><a target="_blank" href="http://www.moe.gov.cn/">教育部</a></li><li><a target="_blank" href="https://www.chsi.com.cn/">学信网</a></li><li><a target="_blank" href="https://www.csc.edu.cn/">国家留学网</a></li><li><a target="_blank" href="https://yz.chsi.com.cn/">中国研究生招生信息网</a></li><li><a target="_blank" href="https://gj.ncss.org.cn/index.html">国际组织实习任职信息服务平台</a></li><li><a target="_blank" href="http://xibu.youth.cn/">西部计划</a></li><li><a target="_blank" href="https://www.gfbzb.gov.cn/">全国征兵网</a></li><li><a target="_blank" href="http://www.cnxds.com/">选调生网</a></li><li><a target="_blank" href="http://jyt.hunan.gov.cn/">湖南省教育厅</a></li><li><a target="_blank" href="http://xsc.gov.hnedu.cn/">湖南省教育厅学生处</a></li><li><a target="_blank" href="http://jyt.hunan.gov.cn/sjyt/bys/">湖南省就业指导中心</a></li><li><a target="_blank" href="http://81rc.81.cn/">军队人才网</a></li>                </ul>
+                <ul>
+                    <li><a target="_blank" href="http://www.moe.gov.cn/">教育部</a></li><li><a target="_blank" href="https://www.chsi.com.cn/">学信网</a></li><li><a target="_blank" href="https://www.csc.edu.cn/">国家留学网</a></li><li><a target="_blank" href="https://yz.chsi.com.cn/">中国研究生招生信息网</a></li><li><a target="_blank" href="https://gj.ncss.org.cn/index.html">国际组织实习任职信息服务平台</a></li><li><a target="_blank" href="http://xibu.youth.cn/">西部计划</a></li><li><a target="_blank" href="https://www.gfbzb.gov.cn/">全国征兵网</a></li><li><a target="_blank" href="http://www.cnxds.com/">选调生网</a></li><li><a target="_blank" href="http://jyt.hunan.gov.cn/">湖南省教育厅</a></li><li><a target="_blank" href="http://xsc.gov.hnedu.cn/">湖南省教育厅学生处</a></li><li><a target="_blank" href="http://jyt.hunan.gov.cn/sjyt/bys/">湖南省就业指导中心</a></li><li><a target="_blank" href="http://81rc.81.cn/">军队人才网</a></li>                </ul>
+                <ul>
+                    <li><a target="_blank" href="http://www.moe.gov.cn/">教育部</a></li><li><a target="_blank" href="https://www.chsi.com.cn/">学信网</a></li><li><a target="_blank" href="https://www.csc.edu.cn/">国家留学网</a></li><li><a target="_blank" href="https://yz.chsi.com.cn/">中国研究生招生信息网</a></li><li><a target="_blank" href="https://gj.ncss.org.cn/index.html">国际组织实习任职信息服务平台</a></li><li><a target="_blank" href="http://xibu.youth.cn/">西部计划</a></li><li><a target="_blank" href="https://www.gfbzb.gov.cn/">全国征兵网</a></li><li><a target="_blank" href="http://www.cnxds.com/">选调生网</a></li><li><a target="_blank" href="http://jyt.hunan.gov.cn/">湖南省教育厅</a></li><li><a target="_blank" href="http://xsc.gov.hnedu.cn/">湖南省教育厅学生处</a></li><li><a target="_blank" href="http://jyt.hunan.gov.cn/sjyt/bys/">湖南省就业指导中心</a></li><li><a target="_blank" href="http://81rc.81.cn/">军队人才网</a></li>                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <div class="nav-main">
+    <ul class="container-index">
+        <li><a href=""><img src="/static/csu/i/nav1.png" alt="">单位调查</a></li>
+        <li><a href=""><img src="/static/csu/i/nav2.png" alt="">报到证查询</a></li>
+        <li><a href=""><img src="/static/csu/i/nav3.png" alt="">档案查询</a></li>
+        <li><a href=""><img src="/static/csu/i/nav4.png" alt="">就业调查</a></li>
+        <li><a href=""><img src="/static/csu/i/nav5.png" alt="">生源速览</a></li>
+        <li><a href=""><img src="/static/csu/i/nav6.png" alt="">职业测评</a></li>
+    </ul>
+</div> -->
+</div>
+<style>.ad-view .close{
+	display: block;
+	width: 25px;
+	height: 25px;
+	margin-right: -5px;
+	background: url(/static/style/advclose.png);
+}
+.ad-view .close b{display: none}</style><div id="adv-left" class="ad-view" style="box-sizing:border-box;height:360px;position:absolute;left:20px;top:0px;z-index:1500">
+			    <div class="cnt" style="position:relative;width:auto;">
+				<a href="javascript:;" class="close" style="display:none;color:red;position:absolute;top:5px;right:10px;text-decoration:none;font-size:12px;"><b style="font-weight:normal">关闭</b></a>
+			        <a href="https://career.csu.edu.cn/cv" target="_blank"><img src="/attachment/university/adv/d4/1d/49d856042a61facef258a634309fb802.png" width="100" border="0"></a>
+			    </div>
+			</div><div id="adv-right" class="ad-view" style="box-sizing:border-box;height:360px;position:absolute;right:20px;top:0px;z-index:1500">
+			    <div class="cnt" style="position:relative;width:auto;">
+				<a href="javascript:;" class="close" style="display:none;color:red;position:absolute;top:5px;right:10px;text-decoration:none;font-size:12px;"><b style="font-weight:normal;displaynone;">关闭</b></a>
+			        <a href="https://job.ncss.cn/student/jobfair/joint.html" target="_blank"><img src="/attachment/university/adv/d4/1d/1c552c162f31c736753c437109e02451.jpg" width="100" border="0"></a>
+			    </div>
+			</div><script type="text/javascript">
+			var windowHeight,windowWidth,advHeight,advWidth;
+			function load(){
+				windowHeight = $(window).height();
+			    windowWidth = $(window).width();
+			    advHeight = $(".ad-view:eq(0)").height();
+			    advWidth = $(".ad-view:eq(0)").width();
+
+			    if(windowWidth > 1315){
+			        $("#adv-left").animate({left:(windowWidth-980)/2.6-advWidth-10});
+			        $("#adv-right").animate({right:(windowWidth-980)/2.6-advWidth-10});
+			    }
+				if($("#adv-right").length > 0)
+				{
+					$("#adv-right").before($("#qr").css("z-index", 1500));
+					if(windowWidth > 1315){
+						$("#qr").css("right", (windowWidth-980)/2-advWidth-7);
+					}else{
+						$("#qr").css("right", 28);
+					}
+				}
+			}
+			$(function(){
+			    load();
+			    $(window).scroll(function() {
+			        if(windowHeight-advHeight < $(window).scrollTop() || windowHeight-advHeight > 0){
+			            $(".ad-view").animate({top:(windowHeight-advHeight)/2 + $(window).scrollTop()},10);
+			        }
+			        if($("#adv-right").length > 0)
+					{
+						$("#qr").css("top", (windowHeight-advHeight)/2-$("#qr").height() + $(window).scrollTop() - 10);
+					}
+			    }).scroll();
+				
+				$(".close").click(function() {
+			        $(this).parents(".ad-view").hide();
+			    });
+				$(".ad-view").mouseover(function(){
+					$(this).find(".close").show();
+				}).mouseout(function(){
+					$(this).find(".close").hide();
+				});
+				$(window).resize(function(){load();$(this).scroll()});
+			});
+			</script><style type="text/css">
+	.img_ad{
+		z-index: 10100;
+		left: 0px;
+		width: auto;
+		position: fixed;
+		top: 0px;
+		height: auto;
+		visibility: visible;
+	}
+	.ad_close{
+		z-index: 10101;
+		right:0;
+		top:0;
+		visibility: hidden;
+		position: absolute;
+		/*background: #ebebeb;*/
+		display: block;
+
+	}
+	.ad_close a:hover{
+		background: #ebebeb;
+		color:#ff0000;
+	}
+	.ad_content{
+		position: relative;
+	}
+</style>
+	<div id='img0' class="img_ad">
+	    <div class="ad_content">
+		<a href="https://career.csu.edu.cn/news/view/aid/200217/tag/tzgg" target="_blank">
+		<img class="ad_im" src="/attachment/university/adv/d4/1d/e63cb85a709a5592386af3f26ddab9d6.jpg" border="0">
+		</a>
+		<!-- <div class="iadText">中南大学2025届毕业生生源信息集秋季校园招聘活动预告</div> -->
+		<div class="ad_close"><a href="javascript:;">关闭</a></div>
+		</div>
+	</div>
+	<div id='img1' class="img_ad">
+	    <div class="ad_content">
+		<a href="http://www.joblib.cn/" target="_blank">
+		<img class="ad_im" src="/attachment/university/adv/d4/1d/bd50d5b5114d04a044f246ffe8ee833c.jpg" border="0">
+		</a>
+		<!-- <div class="iadText">就业创业知识数据库</div> -->
+		<div class="ad_close"><a href="javascript:;">关闭</a></div>
+		</div>
+	</div>
+<script type="text/javascript">
+var screenWidth = $(window).width();
+var screenHeight = $(window).height();
+var xPos = Math.random()*screenWidth;
+var yPos = Math.random()*screenHeight; 
+var step = 1;
+var delay = 30; 
+var height = 0;
+var Hoffset = 0;
+var Woffset = 0;
+// var yon = 0;
+var xon = 0;
+var pause = true;
+var interval;
+// imgAd.style.top = yPos;
+function imgAd(){
+	$('.img_ad').each(function(){
+		$(this).mouseover(function(){
+			$(this).children().children('.ad_close').css('visibility','visible');
+			if($(this).attr('pause')=='true')
+			{
+				$(this).attr('pause','false');
+			}else{
+				$(this).attr('pause','true');
+			}
+		}).mouseout(function(){
+		$(this).children().children('.ad_close').css('visibility','hidden');
+   			if($(this).attr('pause')=='true')
+			{
+				$(this).attr('pause','false');
+			}else{
+				$(this).attr('pause','true');
+			}
+	})
+		start(this,1,Math.floor(Math.random()*screenWidth),Math.floor(Math.random()*screenHeight));
+	})
+}
+$('.ad_close').click(function(){
+	// alert('1');
+	$(this).parent().parent('.img_ad').remove();
+});
+function changePos(imgAd) 
+{
+	imgAd = imgAd;
+	width = $(window).width();
+	height = $(window).height()
+	// height = document.documentElement.clientHeight;
+	// height = $(window).height();
+	// width = document.body.clientWidth;
+	// height = document.body.clientHeight;
+	if($(imgAd).attr('pause')=='true')
+	{
+		$(imgAd).css('left',$(imgAd).attr('xPos')+'px');
+		// console.log($(imgAd).attr('xPos'));
+		$(imgAd).css('top',$(imgAd).attr('yPos')+'px');
+		if ($(imgAd).attr('yon')==1) 
+			// {yPos = yPos + step;}
+		   {$(imgAd).attr('yPos',$(imgAd).attr('yPos') - -($(imgAd).attr('step')))}
+		else 
+			// {yPos = yPos - step;}
+		   {$(imgAd).attr('yPos',$(imgAd).attr('yPos') - $(imgAd).attr('step'))}
+		if ($(imgAd).attr('yPos') < 1) 
+			// {yon = 1;yPos = 0;}
+		   {$(imgAd).attr('yon',1);
+		   $(imgAd).attr('yPos',1);
+		}
+		if ($(imgAd).attr('yPos') >= (height - $(imgAd).attr('Hoffset'))) 
+			// {yon = 0;yPos = (height - $(imgAd).attr('Hoffset'));}
+		    {
+		    $(imgAd).attr('yon',0);
+		    $(imgAd).attr('yPos',height - $(imgAd).attr('Hoffset'));
+		}
+		if ($(imgAd).attr('xon')==1) 
+			{$(imgAd).attr('xPos',$(imgAd).attr('xPos') - -($(imgAd).attr('step')))}
+		else 
+			{$(imgAd).attr('xPos',$(imgAd).attr('xPos') - $(imgAd).attr('step'))}
+		if ($(imgAd).attr('xPos') < 1) 
+			{$(imgAd).attr('xon',1);$(imgAd).attr('xPos',1)}
+		if ($(imgAd).attr('xPos') >= (width - $(imgAd).attr('Woffset'))) 
+		    {$(imgAd).attr('xon',0);$(imgAd).attr('xPos',width - $(imgAd).attr('Woffset'));}
+	}
+	}
+	function start(imgAd,step,xPos,yPos)
+	{
+	 	// imgAd.visibility = "visible";
+	 	$(imgAd).attr('step',step);
+		// $(imgAd)[0].offsetHeight = $(imgAd).height;
+		// $(imgAd)[0].offsetWidth = $(imgAd).width;
+		$(imgAd).attr('Hoffset',$(imgAd).height());
+		$(imgAd).attr('Woffset',$(imgAd).width());
+		$(imgAd).attr('yon',0);
+		$(imgAd).attr('xon',0);
+		$(imgAd).attr('xPos',xPos);
+		$(imgAd).attr('yPos',yPos);
+		$(imgAd).attr('pause',true);
+		$(imgAd).interval = setInterval(function(){
+			changePos(imgAd)
+		}, delay);
+	}
+// 	// 广告浮动暂停、开始
+// 	function pause_resume(imgAd) 
+// 	{
+// 		if(imgAd.attr('pause')=="true") 
+// 		{
+// 			// this.children(".ad_close").attr('visibility','visible');
+// 			clearInterval(imgAd.interval);
+
+// 			imgAd.attr('pause',false);}
+// 		else 
+// 		{
+// 			imgAd.interval = setInterval(function(){
+// 			changePos(imgAd)
+// 		}, delay);
+// 			imgAd.attr('pause',true); 
+// 			}
+// 		}
+// 	$('.img_ad').mouseover(function(){
+// 		$(this).children().children('.ad_close').css('visibility','visible');
+// 	}).mouseout(function(){
+// 		$(this).children().children('.ad_close').css('visibility','hidden');
+// 	})
+	imgAd();
+</script><script>
+    $(function () {
+        // JavaScript Document
+        var dDialog = null;
+        var ajaxUrl = '/default/date';
+        var json = null;
+        var temp = new Date().getTime();
+        var weekday = new Array(7);
+
+        function initDatePicker() {
+            var dat = new Date();
+            $.ajax({
+                type: "post",
+                url: ajaxUrl,
+                data: {
+                    'year': dat.getFullYear(),
+                    'month': (dat.getMonth() + 1)
+                },
+                success: function (data, textStatus) {
+                    json = data;
+                    if (json.language == 'en') {
+                        weekday[0] = "Sun";
+                        weekday[1] = "Mon";
+                        weekday[2] = "Tue";
+                        weekday[3] = "Wed";
+                        weekday[4] = "Thu";
+                        weekday[5] = "Fri";
+                        weekday[6] = "Sat";
+                    } else {
+                        weekday[0] = "周天";
+                        weekday[1] = "周一";
+                        weekday[2] = "周二";
+                        weekday[3] = "周三";
+                        weekday[4] = "周四";
+                        weekday[5] = "周五";
+                        weekday[6] = "周六";
+                    }
+                    $("#datepicker").datepicker({
+                        inline: true,
+                        onSelect: onSelect,
+                        onChangeMonthYear: onChangeMonthYear,
+                        beforeShowDay: beforeShowDay,
+                        showMonthAfterYear: true,
+                        dateFormat: "yy-mm-dd"
+                    });
+                    initDayHover();
+                },
+                dataType: "json"
+            });
+        }
+
+        function onSelect() {
+            return false;
+        }
+
+        function initContent(date) {
+            html = '<div class="datePickerLayout"> \
+    		<ul>' + json[date] + '</ul> \
+    	</div>';
+            return html;
+        }
+
+        function initDayHover() {
+            var hoverTimer, outTimer;
+            var mouseenter = false;
+
+            $(document).on('mouseenter', '.aui_state_focus', function () {
+                mouseenter = true;
+            });
+            $(document).on('mouseleave', '.aui_state_focus', function () {
+                mouseenter = false;
+                dDialog && dDialog.close();
+            });
+
+            $('#datepicker').on('mouseover', '.dayTip', function () {
+                var t = this;
+                var title = $(this).data('year') + '-' + ($(this).data('month') + 1) + '-' + $(this).text();
+                var week = weekday[new Date(title).getDay()];
+                var title_total = title;
+                if (json['total'][title]) {
+                    title_total = title + '(' + week + ')' + '　<a style="color:red;text-shadow:none;" href="/default/calendarList?date=' + title + '" target="_blank">共 ' + json['total'][title] + ' 场就业活动';
+                }
+                hoverTimer = setTimeout(function () {
+                    if (json[title]) {
+                        if (dDialog) {
+                            dDialog.follow(t).content(initContent(title)).title(title_total);
+                        } else {
+                            dDialog = $.dialog({
+                                title: title_total,
+                                id: 'date',
+                                resize: false,
+                                drag: false,
+                                content: initContent(title),
+                                close: function () {
+                                    dDialog = null;
+                                }
+                            }).follow(t);
+                        }
+                    }
+                }, 300);
+            }).on('mouseout', '.dayTip', function () {
+                clearTimeout(hoverTimer);
+                setTimeout(function () {
+                    dDialog && !mouseenter && dDialog.close();
+                }, 200);
+            });
+
+            $('#datepicker').on('mouseover', '.dayTip_last', function () {
+                var t = this;
+                var title = $(this).data('year') + '-' + ($(this).data('month') + 1) + '-' + $(this).text();
+                var week = weekday[new Date(title).getDay()];
+                var title_total = title;
+                if (json['total'][title]) {
+                    title_total = title + '(' + week + ')' + '　<a style="color:red;text-shadow:none;" href="/default/calendarList?date=' + title + '" target="_blank">共 ' + json['total'][title] + ' 场就业活动';
+                }
+                hoverTimer = setTimeout(function () {
+                    if (json[title]) {
+                        if (dDialog) {
+                            dDialog.follow(t).content(initContent(title)).title(title_total);
+                        } else {
+                            dDialog = $.dialog({
+                                title: title_total,
+                                id: 'date',
+                                resize: false,
+                                drag: false,
+                                content: initContent(title),
+                                close: function () {
+                                    dDialog = null;
+                                }
+                            }).follow(t);
+                        }
+                    }
+                }, 300);
+            }).on('mouseout', '.dayTip_last', function () {
+                clearTimeout(hoverTimer);
+                setTimeout(function () {
+                    dDialog && !mouseenter && dDialog.close();
+                }, 200);
+            });
+        }
+
+        function onChangeMonthYear(year, month, inst) {
+            $.ajax({
+                type: "post",
+                url: ajaxUrl,
+                data: {
+                    'year': year,
+                    'month': month
+                },
+                success: function (data, textStatus) {
+                    json = data;
+                    if (json.language == 'en') {
+                        weekday[0] = "Sun";
+                        weekday[1] = "Mon";
+                        weekday[2] = "Tue";
+                        weekday[3] = "Wed";
+                        weekday[4] = "Thu";
+                        weekday[5] = "Fri";
+                        weekday[6] = "Sat";
+                    } else {
+                        weekday[0] = "周天";
+                        weekday[1] = "周一";
+                        weekday[2] = "周二";
+                        weekday[3] = "周三";
+                        weekday[4] = "周四";
+                        weekday[5] = "周五";
+                        weekday[6] = "周六";
+                    }
+                    $("#datepicker").datepicker("refresh");
+                    if (dDialog) {
+                        dDialog.close();
+                        dDialog = null;
+                    }
+                },
+                dataType: "json"
+            });
+        }
+
+        function strtotime(date) {
+            return date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate();
+        }
+
+        function beforeShowDay(date) {
+            var d = strtotime(date);
+            var d_temp = new Date(d).getTime();
+            var d_temp = new Date(date.getFullYear(), date.getMonth(), date.getDate()).getTime();
+            if (json && json[d]) {
+                if (d_temp > temp) {
+                    return [true, 'dayTip', ''];
+                } else {
+                    return [true, 'dayTip_last', ''];
+                }
+            } else {
+                return [false, '', ''];
+            }
+        }
+
+        $(function () {
+            initDatePicker();
+        })
+
+    });
+
+    jQuery(document).ready(function ($) {
+        $('#full-width-slider').royalSlider({
+            arrowsNav: true,
+            arrowsNavHideOnTouch: true,
+            arrowsNavAutoHide: false,
+            loop: true,
+            keyboardNavEnabled: true,
+            controlsInside: false,
+            imageScaleMode: 'fill',
+            autoScaleSlider: false,
+            autoScaleSliderWidth: 1200,
+            autoScaleSliderHeight: 300,
+            controlNavigation: 'bullets',
+            thumbsFitInViewport: false,
+            navigateByClick: true,
+            startSlideId: 0,
+            autoPlay: true,
+            transitionType: 'move',
+            globalCaption: true,
+            sliderDrag: false,
+            controlNavigation: 'bullets',
+            autoPlay: {
+                enabled: true,
+                stopAtAction: false,
+                pauseOnHover: true,
+                delay: 5000
+            },
+            deeplinking: {
+                enabled: true,
+                change: false
+            },
+        });
+        //滚动元素id，左切换按钮，右切换按钮，切换元素个数id,滚动方式，切换方向，是否自动滚动，滚动距离，滚动时间，滚动间隔，显示个数
+        LbMove(
+            'friend-link',
+            'btnl',
+            'btnr',
+            'BoxSwitch', true,
+            'left',
+            true,
+            242,
+            1000,
+            5000,
+            5
+        );
+    });
+</script></div>
+</div>
+<div class="footer">
+    <div class="container-index">
+        <div class="footer-info">
+    <ul>
+        <li class="footerlogo">
+            <div>
+                <img src="/static/csu/i/wechat1.jpg">
+                <p>中南大学官方微信</p>
+            </div>
+            <div>
+                <img src="/attachment/jobcsu/ueditor/images/20191130/1575096054607733.jpg">
+                <p>中南大学就业指导中心官方微信</p>
+            </div>
+        </li>
+        <li style="border-left: none;">
+            <b>中南大学就业指导中心</b>
+            <p>通讯地址：湖南省长沙市中南大学新校区毓秀楼3楼</p>
+            <p>邮政编码：410083</p>
+        </li>
+        <li style="width: 120px;">
+            <b>综合办公室</b>
+            <p>办公电话（传真）：<br>0731-88836918</p>
+        </li>
+        <li style="width: 180px;">
+            <b>市场办公室</b>
+            <p>招聘电话：<br>0731-88836891（校本部）<br>0731-88877434（校本部）<br>0731-89665621（湘雅校区）<br>0731-82656193（铁道校区）</p>
+            <p>招聘邮箱：csujy@csu.edu.cn</p>
+        </li>
+        <li>
+            <b>管理办公室</b>
+            <p>办公电话：<br>0731-88877715（本科生）<br>0731-88879604（研究生）</p>
+        </li>
+        <li style="width: 190px;">
+            <b>就业指导教研室（职业选择能力训练实验中心）</b>
+            <p>咨询电话：0731-88660301</p>
+        </li>
+    </ul>
+</div>
+<div class="text">
+    <p>湖南省长沙市中南大学新校区毓秀楼3楼 CopyRight  2001-2019 中南大学就业指导中心 <script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1279275152'%3E%3C/span%3E%3Cscript src='https://v1.cnzz.com/z_stat.php%3Fid%3D1279275152%26online%3D2' type='text/javascript'%3E%3C/script%3E"));</script></p>
+</div>            </div>
+</div>
+<script>
+    $(function () {
+        $.datepicker.setDefaults({
+            closeText: '关闭',
+            prevText: '',
+            nextText: '',
+            currentText: '今天',
+            monthNames: ['01', '02', '03', '04', '05', '06',
+                '07', '08', '09', '10', '11', '12'
+            ],
+            monthNamesShort: ['一', '二', '三', '四', '五', '六',
+                '七', '八', '九', '十', '十一', '十二'
+            ],
+            dayNames: ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'],
+            dayNamesShort: ['周日', '周一', '周二', '周三', '周四', '周五', '周六'],
+            dayNamesMin: ['日', '一', '二', '三', '四', '五', '六'],
+            weekHeader: '周',
+            dateFormat: 'yy-mm-dd',
+            firstDay: 1,
+            isRTL: false,
+            showMonthAfterYear: true,
+            yearSuffix: '/'
+        });
+
+        var date = new Date();
+        var year = date.getFullYear();
+        var currentMonth = date.getMonth() + 1;
+        var nextMonth = 0;
+        var json = {};
+        // $("#datepicker").datepicker({
+        //     inline: true,
+        //     numberOfMonths: 1,
+        //     onSelect: function (dataTxt, inst) {
+        //         var dataKey = dataTxt.replace("年", "-").replace("月", "-").replace("日", '')
+        //             .replace(" ", "");
+        //         var html = '';
+        //         if (dataKey in json) {
+        //             $.each(json[dataKey], function (index, val) {
+        //                 html += '<li><h3>' + val.time + ' 地点：' + val.address +
+        //                     '</h3><span><a href="' + val.url + '" target="_blank">' +
+        //                     val.title + '</span></a></li>';
+        //             });
+        //             $(".item-list ul").offset({
+        //                 top: $(".item-list").offset().top
+        //             }).html(html);
+        //             $(".day-title").html(dataTxt);
+        //         }
+        //     },
+        //     beforeShowDay: function (date) {
+        //         var d = date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + (date
+        //             .getDate() < 10 ? '0' + date.getDate() : date.getDate());
+        //         var d_temp = new Date(d).getTime();
+        //         if (json && d in json) {
+        //             return [true, 'hasData', ''];
+        //         } else {
+        //             return [true, '', ''];
+        //         }
+        //     },
+        //     dateFormat: "yy年 mm月dd日"
+        // });
+        $(".employment-calendar").show().find(".hasData").first().click();
+
+        $(".caption").each(function () {
+            var th = $(this);
+            $("li a", this).click(function (event) {
+                $(this).parent('li').addClass("current").siblings('li').removeClass(
+                    'current');
+                $(this).parents(".caption").next('.content').find(">ul,>div").addClass(
+                    'hide').eq($(this).parent('li').index()).removeClass('hide');
+                event.preventDefault();
+            }).first().click();
+            $(".more", this).click(function (event) {
+                $(this).attr("href", th.find('li.current a').attr("rel"));
+            });
+        });
+        jQuery(document).ready(function ($) {
+            $('#full-width-slider').royalSlider({
+                arrowsNav: true,
+                arrowsNavHideOnTouch: true,
+                arrowsNavAutoHide: false,
+                loop: true,
+                keyboardNavEnabled: true,
+                controlsInside: false,
+                imageScaleMode: 'fill',
+                autoScaleSlider: false,
+                autoScaleSliderWidth: 1920,
+                autoScaleSliderHeight: 300,
+                controlNavigation: 'bullets',
+                thumbsFitInViewport: false,
+                navigateByClick: true,
+                startSlideId: 0,
+                autoPlay: true,
+                transitionType: 'move',
+                globalCaption: true,
+                sliderDrag: false,
+                controlNavigation: 'bullets',
+                autoPlay: {
+                    enabled: true,
+                    stopAtAction: false,
+                    pauseOnHover: true,
+                    delay: 5000
+                },
+                deeplinking: {
+                    enabled: true,
+                    change: false
+                },
+            });
+            //滚动元素id，左切换按钮，右切换按钮，切换元素个数id,滚动方式，切换方向，是否自动滚动，滚动距离，滚动时间，滚动间隔，显示个数
+            LbMove(
+                'friend-link',
+                'btnl',
+                'btnr',
+                'BoxSwitch', true,
+                'left',
+                true,
+                242,
+                1000,
+                5000,
+                5
+            );
+        });
+    });
+    $(function () {
+        //判断浏览器是否支持placeholder属性
+        supportPlaceholder = 'placeholder' in document.createElement('input'),
+            placeholder = function (input) {
+                var text = input.attr('placeholder'),
+                    defaultValue = input.defaultValue;
+
+                if (!defaultValue) {
+                    input.val(text).addClass("phcolor");
+                }
+                input.focus(function () {
+                    if (input.val() == text) {
+                        $(this).val("");
+                    }
+                });
+
+                input.blur(function () {
+                    if (input.val() == "") {
+                        $(this).val(text).addClass("phcolor");
+                    }
+                });
+
+                //输入的字符不为灰色
+                input.keydown(function () {
+                    $(this).removeClass("phcolor");
+                });
+            };
+
+        //当浏览器不支持placeholder属性时，调用placeholder函数
+        if (!supportPlaceholder) {
+            $('input').each(function () {
+                text = $(this).attr("placeholder");
+                if ($(this).attr("type") == "text") {
+                    placeholder($(this));
+                }
+            });
+        }
+    });
+    jQuery(".newsbox").slide({
+        titCell: "",
+        mainCell: ".imgtext ul",
+        autoPage: true,
+        effect: "leftLoop",
+        autoPlay: true,
+        vis: 2
+    });
+</script>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+			var _paq = window._paq = window._paq || [];
+			_paq.push(["trackPageView"]);
+			_paq.push(["enableLinkTracking"]);
+			(function() {
+				var u="http://analytics.jysd.cn/";
+				_paq.push(["setTrackerUrl", u+"matomo.php"]);
+				_paq.push(["setSiteId", "191609"]);
+				var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];
+				g.type="text/javascript"; g.async=true; g.src="/static/js/matomo.js"; s.parentNode.insertBefore(g,s);
+			})();
+		
+/*]]>*/
+</script>
+</body>
+
+</html>

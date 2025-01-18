@@ -1,0 +1,1 @@
+{"errno": 0, "data": [{"k": "me", "v": "pron. （人称代词I的宾格）我 n. 自我; 自我的一部分; 极端自私的人; [音乐]固定唱法时"}, {"k": "ME", "v": "abbr. myalgic encephalomyelitis <医>肌痛性脑脊髓炎"}, {"k": "mea", "v": "abbr. measure 测量; measuring 测量; minimum enroute al"}, {"k": "Mea", "v": "[人名] 米亚"}, {"k": "Meb", "v": "abbr. methylene blue 亚甲蓝"}], "logid": 688348580}
